@@ -1,0 +1,2 @@
+# ParadoxCore
+Minecraft Plugin Spigot
