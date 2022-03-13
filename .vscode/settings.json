@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\VoxelPlugin\\Silniki\\niebezpieczne\\spigot-1.17.1.jar"
+    ]
+}

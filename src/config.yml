@@ -1,0 +1,105 @@
+name: 'SurvivalCore'
+motd:
+  motd: '&8» §6§lParadoxSMP§7.§6§lpl §8x §7Survial na całego'
+  #motd2: '§8➥ §aMultimc.pl'
+  maxplayers: 29093
+nothiscommand: '&7Nie ma takiej komendy jak &3{command}'
+noplayer: '&8Nie jesteś graczem'
+npc:
+  badconstrution: '&6Poprawne użycie komendy to &6/npc create [name]'
+titlebar:
+  command:
+    pausebetweenwords: ' '
+    noplayer: '&8Gracz &9{target} &8nie istnieje'
+    badconstrution: '&7Nie poprawne użycie. Użyj &3/broadcast [sendserver|sendplayer|sendplayercolorx] [player] [message]'
+joinserver:
+  messages: '&8[&6+&8] &8{prefixrangi}&7 {player}'
+leaveserver:
+  message: '&8[&6-&8] &8{prefixrangi}&7 {player}'
+zasady:
+  baduse: '&7Złe użycie &4Użyj &8/zasady'
+pomoc:
+  baduse: '&7Złe użycie &4Użyj &8/pomoc'
+  message:
+repair:
+  baduse: '&7Nie poprawne użycie. Użyj &3/repair [all]'
+  messages: '&7Naprawiłeś trzymant przedmiot'
+  messagesall: '&7Naprawiłeś wszystkie przedmioty z ekwipunku'
+  nopermision: '&7Nie masz uprawnień do wykonywania &3/repair'
+  nopermisionall: '&7Nie masz uprawnień do wykonywania &3/repair all'
+  permision: 'ParadoxCore.repair'
+  permisionall: 'ParadoxCore.repairALL'
+spawn:
+  x: 100
+  y: 64
+  z: 100
+  world: world
+  baduse: '&7Złe użycie &4Użyj &8/spawn'
+  nopermision: '&7Nie masz permisji'
+  setpermision: 'paradoxcore.setspawn'
+  setmessage: "&7Ustawiłeś spawn na &3x:{x} y:{y} z:{z}"
+  teleportmessage: '&3@{player} &7Teleportowałeś się na spawn'
+# Użyj {recipient} aby wskazać adresata
+# Użyj {sender} aby wskazać nadawce
+# Użyj {msg} aby wskazać wiadomość
+msg:
+  pausebetweenwords: ' '
+  msgtome: '&8[&ety -> &6{recipient}&8] &e{msg}'
+  msgtoplayer: '&8[&e{sender}&6 -> ciebie&8] &e{msg}'
+  isignored: '&7Gracz @{recipient} zablokował wiadomości prywatne od ciebie'
+  badconstrutions: '&7Zła konstrukcja. &3Poprawna wersja komendy to &4/msg [gracz] [wiadomość]'
+  ignore:
+    playeronlist: '&3@{sender} &7Gracz {player} jóż jest na block liście &6/msg'
+    addplayer: '&3@{sender} &7Dodałeś gracza {player} do block listy &6/msg'
+    baduse: '&3@{sender} &7poprawne użycie komendy to &4/ignore [gracz]'
+  unlock:
+    noplayeronlist: '&3@{sender} &7Gracz {player} nie jest na block liście &6/msg'
+    removeplayer: '&3@{sender} &7Usunołeś gracza {player} z block listy &6/msg'
+    baduse: '&3@{sender} &7poprawne użycie komendy to &4/unlock [gracz]'
+# Reciple in crafting 9x9
+# a1 a2 a3
+# b1 b2 b3
+# c1 c2 c3
+boyfarmer:
+  placemessage: '&7Postawiłeś&3 BoyFarmera'
+  item: 'OBSIDIAN'
+  name: '&6BoyFarmer'
+  lore:
+  customrecipe: true
+  itema1: ''
+  itema2: ''
+  itema3: ''
+  itemb1: ''
+  itemb2: ''
+  itemb3: ''
+  itemc1: ''
+  itemc2: ''
+  itemc3: ''
+kopaczfosy:
+  placemessage: '&7Postawiłeś &3Kopacza Fosy'
+  name: '&5Kopacz Fosy'
+  lore: 
+  customrecipe: true
+  itema1: ''
+  itema2: ''
+  itema3: ''
+  itemb1: ''
+  itemb2: ''
+  itemb3: ''
+  itemc1: ''
+  itemc2: ''
+  itemc3: ''
+sandfarmer:
+  placemessage: '&7Postawiłeś &3SandFarmer'
+  name: '&8SandFarmer'
+  lore: 
+  customrecipe: true
+  itema1: ''
+  itema2: ''
+  itema3: ''
+  itemb1: ''
+  itemb2: ''
+  itemb3: ''
+  itemc1: ''
+  itemc2: ''
+  itemc3: ''
