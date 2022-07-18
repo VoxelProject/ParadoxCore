@@ -26,7 +26,7 @@ public class Main extends JavaPlugin{
     public NPCAPI npcManager;
 
 	public void onEnable() {
-		getLogger().info("Plugin się włączył");
+		getLogger().info("o pluigin sie włączył");
 		
 		getConfig().options().copyDefaults(true);
 		saveConfig();
